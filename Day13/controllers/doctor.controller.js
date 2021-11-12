@@ -48,7 +48,7 @@ router.get("/:DoctId", DoctorController.getDoctor);
 router.delete("/:DoctId", DoctorController.deleteDoctor);
 //To Create New Employee
 router.post("/", DoctorController.insertDoctor);
-//To Update Data Of An Employee
+//To Update Data Of An doctor
 router.put("/", DoctorController.updateDoctor);
 //To get summary
 router.get("/:DoctId/summary", DoctorController.getSummary);
